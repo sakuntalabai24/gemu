@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" href="unnamed.jpg">
+
+  <title>"Gemini-Style AI — Dark UI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <body>
+    <button id="themeToggle" class="theme-btn">🌙 Dark Mode</button>
+
+  <div class="app">
+    <header class="app-header">
+      <div class="brand">
+        <div class="logo">S</div>
+        <div>
+          <h1>Amy — Mini</h1>
+
+          <small>AI Content Generator</small>
+        </div>
+      </div>
+
+     <div class="toggle-container">
+     <div class="toggle-option" data-mode="ask">Ask</div>
+     <div class="toggle-option" data-mode="summarize">Summarize</div>
+     <div class="toggle-option" data-mode="ideas">Ideas</div>
+     <div class="toggle-slider"></div>
+</div>
+
+    </header>
+
+    <main class="chat-area" id="chatArea">
+      
+    </main>
+
+    <footer class="composer">
+      <div class="controls">
+        <input id="inputText" type="text" placeholder="Type your question, paste text or ask for ideas..." />
+        <button id="sendBtn" title="Send">Send →</button>
+      </div>
+
+      <div class="footer-actions">
+        <button id="copyLast" title="Copy last AI reply">Copy</button>
+        <button id="clearChat" title="Clear chat">Clear</button>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
